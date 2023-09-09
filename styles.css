@@ -1,0 +1,29 @@
+/* Class Styling for the main container */
+.container {
+    font-family: Arial, sans-serif; /* Font setting */
+    width: 80%;                     /* Width of the container */
+    margin: 50px auto;              /* Centering the container */
+    text-align: center;             /* Center aligning the text elements */
+}
+
+/* Styling for my profile image */
+img {
+    width: 150px;                   /* Image width */
+    height: 150px;                  /* Image height */
+    margin-top: 20px;               /* Top margin for spacing */
+    max-width: fit-content;        /* Max width of my Profile image */
+}
+
+/* Styling for paragraphs and links */
+p, a {
+    margin-top: 20px;               /* Top margin for spacing */
+}
+
+/* Class Styling for the GitHub link */
+.display-github:hover {
+    background: #ffd868;
+    box-shadow: 0 0 30px#ffd868;
+    color: #272727;
+    cursor: pointer;
+  }
+  

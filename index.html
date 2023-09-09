@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Frontend Task For Page Information </title>
+    <link rel="icon" href="profile.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Container to hold all the elements -->
+    <div class="container">
+        <!-- Tag to Display my Slack Name -->
+        <h1 data-testid="slackUserName">oluwaseunmusa</h1>
+        
+        <!-- Tag to Display my  Slack Profile Picture -->
+        <img src="profile.JPG" alt="oluwaseunmusa" data-testid="slackDisplayImage">
+        
+        <!-- Tag to Display Current Day of the Week -->
+        <p data-testid="currentDayOfTheWeek"></p>
+        
+        <!-- Display Current UTC Time in milliseconds -->
+        <p data-testid="currentUTCTime"></p>
+        
+        <!-- Display My HNG Track Information -->
+        <p data-testid="myTrack">Front-End Engineering Track </p>
+        
+        <!-- Link to  my GitHub Repository -->
+        <a class='display-github' href="https://github.com/superissy/hng_frontend_stage_one" data-testid="githubURL" target="_blank"> GitHub Repository</a>
+    </div>
+</body>
+</html>
